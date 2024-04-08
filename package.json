@@ -1,0 +1,33 @@
+{
+  "name": "@mlataza/html-line-breaks",
+  "version": "1.0.0",
+  "description": "Simple string utility function to convert line break characters to HTML.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlataza/html-line-breaks-js.git"
+  },
+  "author": "mlataza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlataza/html-line-breaks-js/issues"
+  },
+  "homepage": "https://github.com/mlataza/html-line-breaks-js#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4"
+  }
+}
